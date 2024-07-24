@@ -1,5 +1,5 @@
 * {
-    border: 2px dotted blue;
+   
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +10,11 @@ body {
     font-family: "Epilogue", sans-serif;
     
 }
+
+.header {
     
+}
+
 
 .container {
     display: flex;
@@ -25,7 +29,7 @@ body {
     font-weight: 600;
 }
 
-nav.navbar {
+.navbar {
     display: none;
 }
 
@@ -34,3 +38,18 @@ ul.main.menu {
     padding: 0;
     margin: 0;
 }
+
+@media (min-width: 768px){
+    .hamburger-icon {
+        display: none;
+
+    }
+    .navbar {
+        display: block;
+    }
+}
+
+
+
+
+
