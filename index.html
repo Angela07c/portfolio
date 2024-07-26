@@ -8,17 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<!--NormalizeCSS-->
+    <!-- NormalizeCSS-->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
-    
 </head>
 <body>
     <header class="header">
         <div class="container logo-navbar">
-            <div class="logo">Logo</div>
+            <div id="logo">Logo</div>
             <nav class="navbar">
-                 <ul class="main menu">
+                <ul class="main-menu">
                     <li class="menu-item">
                         <a href="#">About</a>
                     </li>
@@ -28,46 +27,65 @@
                     <li class="menu-item">
                         <a href="#">Contact</a>
                     </li>
-                 </ul>
-            </nav> 
-            <img class= "hamburger-icon"src="./images/menu.svg" alt="hamburguer icon">    
+                </ul>
+            </nav>
+            <img class="hamburger-icon" src="./images/menu.svg" alt="Hamburger icon">
         </div>
     </header>
     <main class="main">
-       
+  
         <section class="bio">
             <div class="container bio-content">
                 <div class="avatar">
-                    <img class="avatar-image" src="./images/Image.png" alt="foto: pablo desingner"> 
-                    <strong class="avatar-name">
-                        Pablo Designer & unicorn trainer
-                    </strong>
-                    
-    
+                    <img class="avatar-image" src="./images/Image.png" alt="Foto: Pablo Designero">
+                    <strong class="avatar-name">Pablo Designero</strong>
+                    <p class="profession">Designer & Unicorn Trainer</p>
                 </div>
                 <div class="biography">
-                   <strong>Bio</strong>
-                   <p class="biography-details">Father of 3 humans,
-                     5 unicorns & 2 dogs,I design since I can remember it. 
-                    I often get asked where I get my inspiration from: 
-                    in everyday’s lil’ details. And sometimes in leftover food
-                     I find in my beard.</p>
+                    <strong>Bio:</strong>
+                    <p class="biography-details">Father of 3 humans, 5 unicorns & 2 dogs,I design since I can remember it. I often get asked where I get my inspiration from: in everyday’s lil’ details. And sometimes in leftover food I find in my beard.</p>
                 </div>
-        </section>
-        <section class="description">
-             <div class="container">
-            la historia
             </div>
         </section>
-    </main>
-    <footer class="footer"></footer>
-        <div class="container">
-        lets work together + formulario 
-         </div>
+        <section class="description">
+            <div class="container description-content">
+                description
+            </div>
+        </section>
         
-
+    </main>
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="lets-work">
+                <h2>Let’s work together</h2>
+                <p>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+                <ul class="social-media">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+            <div class="form-contact">
+                <form action="">
+                    <div class="field">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="field">
+                        <textarea name="" id="" placeholder="Type your message here"></textarea>
+                    </div>
+                    <div class="field">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/main.js"></script>
-    
 </body>
 </html>

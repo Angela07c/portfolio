@@ -1,79 +1,65 @@
 :root {
-    /**Colors*/
+    /** Colors */
+    --anti-flash-white: #F3F3F3;
+    --black: #000000;
     --charleston-green-v1: #2D2D2D;
     --charleston-green-v2: #2B2B2B;
-    --black: #000000;
-    --white: #ffffff;
-    --pink-lace: #F9E6F0;
-    --piggy-pink: #F6DCE9;
     --paolo-veronese-green: #009379;
-    --anti-flash-white: #F3F3F3;
+    --piggy-pink: #F6DCE9;
+    --pink-lace: #F9E6F0;
+    --white: #ffffff;
 
     /**/
-    --color-menu-link: var(--charleston-green-v1);
-    
+    --color-menu-link: var( --charleston-green-v1 );
 }
 
-
-
-
-
 * {
-   /*border: 1px dotted blue ; */
+    /* border: 1px dotted blue; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
 }
 
 body {
     font-family: "Epilogue", sans-serif;
-    
 }
 
-p.{
+p {
     line-height: 1.4;
     font-size: 17px;
 }
 
-.header {
-    
+/** Header */
+#logo {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .menu-item a {
     text-decoration: none;
-    color: var(--color-menu-link);
+    color: var( --color-menu-link );
 }
-
 .menu-item a:hover {
     color: gray;
-
 }
 
-
 .container {
-    
     width: 90%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .logo-navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     margin: 26px auto;
-}
-
-.logo {
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .navbar {
     display: none;
 }
 
-ul.main.menu {
+ul.main-menu {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -82,22 +68,22 @@ ul.main.menu {
     align-items: center;
     gap: .5rem;
 }
-@media (min-width: 768px){
+
+@media ( min-width: 768px ) {
     .hamburger-icon {
         display: none;
-
     }
     .navbar {
         display: block;
     }
 }
 
-/**main section bio*/
-
+/** Main: Section Bio */
 .bio {
-    background-color: var(--pink-lace);
+    background-color: var( --pink-lace);
 }
-@media (min-width: 268px){
+
+@media ( min-width: 768px ) {
     .bio-content {
         display: flex;
         align-items: center;
@@ -106,9 +92,28 @@ ul.main.menu {
         width: 60%;
         padding: 7rem 0;
     }
-   
 }
-    
+
+/** Main: Section Story */
+
+
+/** Footer */
+.container.footer-content {
+    border: 1px dotted;
+    display: flex;
+    justify-content: space-around;
+}
+.lets-work {
+    flex-basis: 30%;
+}
+.form-contact {
+    flex-basis: 50%;
+}
+ul.social-media {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
 
 
 
