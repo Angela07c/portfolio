@@ -8,6 +8,7 @@
     --piggy-pink: #F6DCE9;
     --pink-lace: #F9E6F0;
     --white: #ffffff;
+    --height-input: 69px;
 
     /**/
     --color-menu-link: var( --charleston-green-v1 );
@@ -99,20 +100,27 @@ ul.main-menu {
 
 /** Footer */
 .container.footer-content {
-    border: 1px dotted;
     display: flex;
     justify-content: space-around;
 }
 .lets-work {
     flex-basis: 30%;
 }
-.form-contact {
+.contact {
     flex-basis: 50%;
 }
-ul.social-media {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+
+.form-input {
+    width: 100%;
+    height: var(--height-input);
+    padding: 25px;
+    margin-bottom: 1rem;
+    background-color: var(--anti-flash-white);
+    border: none;
+}
+
+textarea.form-input{
+    height: calc( var(--height-input)*3);
 }
 
 
