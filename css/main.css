@@ -93,6 +93,11 @@ ul.main-menu {
     margin: 1.2rem 0;
 }
 
+span.name-designer {
+    display: block;
+    text-decoration: underline;
+}
+
 .profession {
     font-weight: normal;
 }
@@ -110,10 +115,36 @@ ul.main-menu {
         width: 60%;
         padding: 7rem 0;
     }
+    .biography {
+        margin-top: initial;
+    }
+    .container.description-content {
+        width: 70%;
+    }
 }
 
 /** Main: Section Story */
 
+.description-content {
+    padding-top: 5rem;
+}
+
+.description-content *:first-child {
+    margin-bottom: 2.5rem;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.description-content p {
+    line-height: 1.7;
+}
+
+.description-content *:nth-child(2),
+.description-content *:nth-child(4) {
+     background-color: #009379;
+     color: var(--piggy-pink);
+     font-weight: 600;
+}
 
 /** Footer */
 .footer-content {
