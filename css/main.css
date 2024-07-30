@@ -84,6 +84,23 @@ ul.main-menu {
     background-color: var( --pink-lace);
 }
 
+.bio-content {
+    padding: 4.8rem 0;
+}
+
+.avatar-name {
+    font-size: 17px;
+    margin: 1.2rem 0;
+}
+
+.profession {
+    font-weight: normal;
+}
+
+.biography {
+    margin-top: 6rem;
+}
+
 @media ( min-width: 768px ) {
     .bio-content {
         display: flex;
