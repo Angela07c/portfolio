@@ -25,3 +25,8 @@ El propósito de esta plantilla es ejemplificar la manera en que se construye un
  console.log ("Pablo Designero")
 
  ```
+
+ ## Equipo
+ | Nombre| Ciudad |
+ |-------|--------|
+ |Juan Esteban| Bogotá 
